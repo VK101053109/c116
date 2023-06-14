@@ -1,0 +1,35 @@
+@keyframes cc{
+    0%{box-shadow: 1px 1px 30px red;}
+    10%{box-shadow: 1px 1px 30px orange;}
+    20%{box-shadow: 1px 1px 30px yellow;}
+    30%{box-shadow: 1px 1px 30px green;}
+    40%{box-shadow: 1px 1px 30px blue;}
+    50%{box-shadow: 1px 1px 30px purple;}
+    60%{box-shadow: 1px 1px 30px violet;}
+    70%{box-shadow: 1px 1px 30px blueviolet;}
+    80%{box-shadow: 1px 1px 30px rgb(98, 29, 162);}
+    90%{box-shadow: 1px 1px 30px rgb(164, 114, 212);}
+    100%{box-shadow: 1px 1px 30px rgb(200, 167, 231);}
+}
+canvas{
+    animation-name:cc ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+button:hover{
+    background-color: lightblue;
+}
+@keyframes heading{
+    0%{background-color: red;}
+    25%{background-color: orange;}
+    50%{ background-color: yellow;}
+    75%{ background-color: green;}
+    100%{ background-color: blue;}
+
+
+}
+h3{
+    animation-name:heading ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;  
+}
