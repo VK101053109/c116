@@ -18,7 +18,7 @@ function setup() {
 
 function draw() {
     image(video, 0, 0, 300, 300);
-   image(mustache,nosex-25,nosey-2,50,30);
+   image(mustache,nosex-25,nosey+5,50,30);
 
 }
 
